@@ -1,6 +1,6 @@
 {
   "name": "tse-to_resource",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Puppet Labs TSE Team",
   "license": "Apache-2.0",
   "summary": "Type conversion functions for string representations of resources",
