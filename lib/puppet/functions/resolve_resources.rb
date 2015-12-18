@@ -17,6 +17,7 @@ Puppet::Functions.create_function(:resolve_resources) do
   end
 
   def to_resource(string)
+    return string unless string.match /^[\w:]+\[.*\]$/
     begin
       Puppet::Resource.new(nil, string, {})
     rescue
